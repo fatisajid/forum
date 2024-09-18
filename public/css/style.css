@@ -36,7 +36,6 @@ h1{
 div img{
     margin: auto;
     display: flex; 
-    
-    
-
+    border-radius: 5px;
+   
 }
