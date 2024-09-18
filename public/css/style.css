@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+.btn {
+    background-color: #007bff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 30px !important;
+    text-align: center;
+    display: flex; 
+    margin: auto;
+}
+.btn a {
+    text-decoration: none;
+    color: #fff;
+ 
+}
+
+h1{
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin: 40px 0 20px;
+}
+div img{
+    margin: auto;
+    display: flex; 
+    
+    
+
+}
