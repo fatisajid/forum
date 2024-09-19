@@ -4,17 +4,11 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f7f7f7;
-    color: #333;
-}
+
 .btn {
     background-color: #007bff;
     padding: 10px 15px;
-    /* border: none; */
     border-radius: 5px;
-    /* cursor: pointer; */
     margin-bottom: 30px;
     margin-top: 30px !important;
     text-align: center;
@@ -48,4 +42,23 @@ h1{
     width: 200px;
     height: 200px;
    
+}
+
+.myBody{
+    min-height: 820px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #3f0060;
+    text-align: center;
+    padding: 20px;
+}
+.imgLogo{
+    width: 60px;
+}
+nav, .myFooter{
+    background-color: rgba(134, 203, 230, 0.7);
+}
+.colorPurpel{
+    background-color: #eded1c;
+    color: white;
 }
