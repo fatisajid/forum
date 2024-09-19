@@ -32,7 +32,7 @@
         </li>
         
         <li class="nav-item">
-          <a class="nav-link active" href=""></a>
+          <a class="nav-link active" href="/users">Utilisateur</a>
         </li>
       </ul>
     </div>
