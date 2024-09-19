@@ -12,9 +12,9 @@ body {
 .btn {
     background-color: #007bff;
     padding: 10px 15px;
-    border: none;
+    /* border: none; */
     border-radius: 5px;
-    cursor: pointer;
+    /* cursor: pointer; */
     margin-bottom: 30px;
     margin-top: 30px !important;
     text-align: center;
@@ -33,9 +33,19 @@ h1{
     text-align: center;
     margin: 40px 0 20px;
 }
-div img{
+.img404 img{
     margin: auto;
     display: flex; 
     border-radius: 5px;
+    width: 800px;
+    height: 400px;
+   
+}
+.imgInscription img{
+    margin: auto;
+    display: flex; 
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
    
 }
