@@ -11,7 +11,7 @@
 <body>
 <nav class="navbar navbar-expand-lg  text-white mb-3" style="background-color: #e3f2fd">
   <div class="container-fluid">
-  <a class="navbar-brand" href="/">
+  <a class="navbar-brand" href="">
       <img src="/public/img/logo.png" alt="Logo " width="30" height="30" class="d-inline-block align-text-top">
       forum
     </a>
@@ -19,17 +19,18 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" href="">Acceuil</a>
+          <a class="nav-link active" href="/">Acceuil</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="/register">Inscription</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href=""></a>
+          <a class="nav-link active" href="/connection">Connexion</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href=""></a>
+          <a class="nav-link active" href="/logout">Deconnexion</a>
         </li>
+        
         <li class="nav-item">
           <a class="nav-link active" href=""></a>
         </li>
