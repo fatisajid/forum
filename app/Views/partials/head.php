@@ -12,7 +12,7 @@
 <nav class="navbar navbar-expand-lg navbar-light text-white pb-3">
     <div class="container-fluid">
         <a class="navbar-brand mt-2 mt-lg-0 text-white" href="/">
-            <img src="/public/img/Icon.png" alt="Logo" class="imgLogo">
+            <img src="/public/img/logo.png" alt="Logo" class="imgLogo">
             Forum
         </a>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
