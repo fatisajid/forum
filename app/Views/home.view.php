@@ -3,24 +3,29 @@
     if(isset($_SESSION['user'])){
         ?>
             <h1>Bienvenue <?= $_SESSION['user']['pseudo'] ?></h1>
+            <div class="col-8 mx-auto d-block mt-5">
         <?php
-        if($subjects){
-            foreach($subjects as $subject)
+        if(isset($subjects)){
+            foreach($subjects as $subject){
             ?>
-            <div class="card">
-                <div class="card-header bg-info">
+            <div class="card mt-3 mb-3">
+                <div class="card-header colorPink">
                     <h2><?= $subject['title'] ?></h2>
                     <p class="fst-italic"><?= $subject['creation_date'] ?></p>
                 </div>
            
-            <div class="card-body">
-                <p class="card-text"><?= $subject['description'] ?></p>
-                <a href="#" class="btn btn-info">Aller voir le sujet</a>
-            </div>
+                <div class="card-body">
+                    <p class="card-text"><?= $subject['description'] ?></p>
+                    <a href="/articles?id=<?= $subject['id'] ?>" class="btn colorPink">Aller voir le sujet</a>
+                </div>
             </div>
             <?php
+            }
+            ?>
+            </div>
+        <?php
         }
-    }else {
+        }else {
 ?>
     <h1>Bienvenue à toi !</h1>
     
