@@ -91,3 +91,8 @@ nav, .myFooter{
     background-color: rgb(148, 245, 103);
     color: rgb(23, 23, 23);
 }
+
+.colorYellow {
+    background-color: rgb(246, 249, 74);
+    color: rgb(23, 23, 23);
+}
