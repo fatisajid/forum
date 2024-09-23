@@ -23,7 +23,6 @@ if(isset($_POST['title'])){
         $queryStatement->bindValue(':creation_date', $creation_date);
         $queryStatement->bindValue(':id_user', $userId);
 
-
         $queryStatement->execute();
 
         redirectToRoute('/');
